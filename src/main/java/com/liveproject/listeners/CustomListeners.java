@@ -105,7 +105,7 @@ public class CustomListeners extends Page implements ITestListener,ISuiteListene
 		MonitoringMail mail = new MonitoringMail();
 		try {
 			messageBody = "http://" + InetAddress.getLocalHost().getHostAddress()
-					+ ":8080/job/PageObjectModelBasics/ExtentReports/";
+					+ ":8080/job/PageObjectModelBasics/ExtentReport/";
 		} catch (UnknownHostException e) {
 			e.printStackTrace();
 		}

@@ -13,4 +13,9 @@
 			<class name="com.liveproject.testcases.LoginTest" />
 		</classes>
 	</test> <!-- Test -->
+	<test name="Create Account Test">
+		<classes>
+			<class name="com.liveproject.testcases.CreateAccountTest" />
+		</classes>
+	</test> <!-- Test -->
 	</suite> <!-- Suite -->
